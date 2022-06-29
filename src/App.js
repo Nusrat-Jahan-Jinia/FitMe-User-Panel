@@ -5,6 +5,8 @@ import Home from './components/Home';
 import About from './components/About';
 import Food from './components/Foods';
 import Navbar from './components/Navbar';
+import Login from './components/Login';
+import Register from './components/Register';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       <Route path='/' exact element={<Home />} />
       <Route path='/about' element={<About />} />
       <Route path='/foods' element={<Food />} />
+      <Route path='/login' element={<Login />} />
+      <Route path='/register' element={<Register />} />
       </Routes>
       </div>
     </Router>
